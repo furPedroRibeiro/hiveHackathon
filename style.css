@@ -81,13 +81,14 @@ body{
     align-items: center;
     justify-content: center;
 
-    /* gap: 0.5rem; */
+    /* gap: 3rem; */
 }
 .main-content .buttons{
     display: flex;
+    margin-top: 2rem;
     gap: 2rem;
 }
-button{
+a{
     cursor: pointer;
     transition: 1s;
 
@@ -104,10 +105,13 @@ button{
     font-size: 18px;
     font-weight: bold;
 }
-button:hover{
+a:hover{
     background-color: var(--principal-color);
     color: whitesmoke;
     border: 1px solid whitesmoke;
+}
+a{
+    text-decoration: none;
 }
 .sections{
     width: 100vw;
@@ -140,4 +144,5 @@ p.title{
 }
 p.text{
     font-family: var(--font);
+    text-align: justify;
 }
