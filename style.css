@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:var(--font);
+}
+:root{
+    --principal-color: #5A05B3;
+    --secondary-color: #ffe52f;
+    --font: 'Montserrat', sans-serif;
+}
+/* .section-header{
+    width: 100vw;
+    padding-block: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    background-color: #5A05B3;
+
+    border-bottom: 1px solid #5A05B3;
+    
+}
+.section-header .menu{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.section-header .menu a{
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-main{
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+}
+.section-main .item-main-sobrenos{
+    width: 100%;
+    height: auto;
+    padding-block: 1.5rem;
+    padding-inline: 10vw;
+} */
+
+body{
+    overflow-x: hidden;
+}
+.section-main{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* background-image: url(assets/imgFundo.jpg); */
+    background-color: var(--principal-color);
+    background-size: cover;
+
+    color: whitesmoke;
+
+    font-size: 22px;
+}
+.main-content{
+    height: auto;
+    width: auto;
+
+    padding-inline: 20vw;
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* gap: 0.5rem; */
+}
+.main-content .buttons{
+    display: flex;
+    gap: 2rem;
+}
+button{
+    cursor: pointer;
+    transition: 1s;
+
+    background-color: white;
+    color: var(--principal-color)
+    ;
+    width: 12rem;
+    padding-block: 1.2rem;
+
+    outline: none;
+    border: 1px solid var(--principal-color);
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-weight: bold;
+}
+button:hover{
+    background-color: var(--principal-color);
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+}
+.sections{
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    padding-block: 3rem;
+}
+.sections .section-item{
+    width: 60vw;
+    height: auto;
+
+    padding: 1rem;
+    padding-block: 2rem;
+
+    border-bottom: 1px solid var(--principal-color);
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    margin-inline: 20vw;
+}
+
+p.title{
+    font-family: var(--font);
+    font-size: 25px;
+    font-weight: bold;
+}
+p.text{
+    font-family: var(--font);
+}
